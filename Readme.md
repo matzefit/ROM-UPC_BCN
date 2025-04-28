@@ -7,11 +7,13 @@ This project focuses on developing a Reduced Order Model (ROM) for predicting hi
 
 The ROM leverages a combination of clustering techniques to select representative weather scenarios, and machine learning models trained on simulation data to approximate hourly climate conditions across an urban domain.
 
-Link to Report: 
+Link to Report: PENDING
 
 
 Folder Structure: 
+### Folder Structure:
 
+```text
 ROM_UPC/
 │
 ├── data/
@@ -19,19 +21,18 @@ ROM_UPC/
 │   ├── Y/                            # Corresponding 3 climate output images (MRT, AT, MagVel)
 │   └── RawMeasurementData/           # Original weather station datasets
 │
-├── RawSimOutputData/                 # Raw simulation results
+├── RawSimOutputData/                 # Raw simulation results (Animations, images, etc)
 │
 ├── SimulationInputs/
-│   ├── FinalSimulationInputs/        # Final input files for CFD simulations
-│   ├── PreprocessedSimulationInputs/ # Processed weather inputs for simulation
+│   ├── FinalSimulationInputs/        # Final weather input files for CFD simulations (with final modifications)
+│   ├── PreprocessedSimulationInputs/ # Processed weather inputs for CFD simulation
 │   └── SolarIrradCommands/           # Solar load command files for Fluent
 │
 ├── src/
 │   ├── BaselineModel.ipynb           # Training and evaluation of the ROM models
-│   ├── ClusterRefStation.ipynb       # Clustering of weather data to select representative days
+│   ├── ClusterRefStation.ipynb       # Clustering of weather station data to select representative days for CFD Simulation
 │   ├── PrepRefStationData.ipynb      # Preprocessing of weather station data
-│   ├── TrainingDataPrep.ipynb        # Preparation of training datasets from simulation outputs
+│   ├── TrainingDataPrep.ipynb        # Preparation of training datasets from CFD simulation outputs
 │
-├── .gitignore                        # Standard Git ignore rules
-└── Readme.md                         # Project description and usage guide
-
+├── .gitignore                        # Git ignore files
+└── Readme.md                         # This file
