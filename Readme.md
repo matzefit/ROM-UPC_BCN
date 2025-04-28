@@ -36,3 +36,19 @@ ROM_UPC/
 │
 ├── .gitignore                        # Git ignore files
 └── Readme.md                         # This file
+```
+
+Model Performance: 
+![image](https://github.com/user-attachments/assets/38194ebf-2a48-4382-a395-bfa5dc33e5c0)
+
+Example Prediction:
+
+Given 5 Values: 
+
+- Hour:               14
+- Windspeed [m/s]:    5.69
+- Wind Dir [deg]:     83
+- Solar Irrad [W/m²]: 841
+- Air Temp [K]:       298.65
+
+![image](https://github.com/user-attachments/assets/8bc1d8d1-50f0-439a-a5fa-63640e07abe7)
