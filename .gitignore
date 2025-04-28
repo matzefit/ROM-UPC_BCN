@@ -1,3 +1,11 @@
 "RawMeasurementData/Atmosphere/CWS Data All.csv" 
 RawMeasurementData/Atmosphere/CWS Data All.csv
 RawMeasurementData/Atmosphere/CWS Data All.csv
+src/AT_final_model.pkl
+src/AT_pca.pkl
+src/MagVel_final_model.pkl
+src/MagVel_pca.pkl
+src/MRT_final_model.pkl
+src/MRT_pca.pkl
+.gitignore
+src/X_features_minmax.npy
