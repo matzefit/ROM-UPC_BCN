@@ -7,7 +7,7 @@ This project focuses on developing a Reduced Order Model (ROM) for predicting hi
 
 The ROM leverages a combination of clustering techniques to select representative weather scenarios, and machine learning models trained on simulation data to approximate hourly climate conditions across an urban domain.
 
-Link to Report: PENDING
+Link to Report: (https://drive.google.com/file/d/1vOu7tyJiBovm0ooQV6DpVzjY9GQUa4vD/view?usp=sharing)
 
 
 Folder Structure: 
